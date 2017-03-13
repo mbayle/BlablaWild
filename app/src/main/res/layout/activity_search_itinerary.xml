@@ -62,7 +62,6 @@
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/editTextSearchDestination"
-        style="@style/Widget.AppCompat.AutoCompleteTextView"
         android:layout_below="@+id/textView3"
         android:layout_alignLeft="@+id/textView3"
         android:layout_alignStart="@+id/textView3"

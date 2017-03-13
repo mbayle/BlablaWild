@@ -7,4 +7,6 @@
     <string name="buttonSearch">Rechercher</string>
     <string name="action_settings">Settings</string>
     <string name="Toast">Merci de remplir le lieu de départ et/ou la destination</string>
+    <string name="NoDate">Aucune date pour votre trajet</string>
+    <string name="Date">Votre date de départ est : </string>
 </resources>
