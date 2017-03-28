@@ -9,4 +9,8 @@
     <string name="Toast">Merci de remplir le lieu de départ et/ou la destination</string>
     <string name="NoDate">Aucune date pour votre trajet</string>
     <string name="Date">Votre date de départ est : </string>
+    <string name="price">Prix</string>
+    <string name="hour">Heure</string>
+    <string name="publish">Publier</string>
+    <string name="Propose">Proposer un trajet</string>
 </resources>

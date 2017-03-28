@@ -6,6 +6,9 @@ import android.content.Intent;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -14,7 +17,7 @@ import java.util.ArrayList;
 public class ViewSearchItineraryResultsListActivity extends AppCompatActivity {
 
     ListView mListViewResults;
-    ArrayList<TripResultModel> results;
+    DatabaseReference database;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,18 +38,9 @@ public class ViewSearchItineraryResultsListActivity extends AppCompatActivity {
         }
 
         mListViewResults = (ListView) findViewById(R.id.listView);
-        ArrayList<TripResultModel> results = new ArrayList<>();
 
-        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy-hh:mm");
-
-        try {
-            results.add(new TripResultModel("Bruce", sdf.parse("21/02/2017-15:30"), 15));
-            results.add(new TripResultModel("Clark", sdf.parse("21/02/2017-16:00"), 20));
-            results.add(new TripResultModel("Bary", sdf.parse("21/02/2017-16:30"), 16));
-            results.add(new TripResultModel("Lex", sdf.parse("21/02/2017-17:00"), 40));
-        } catch (ParseException e) {
-        }
-        TripResultAdapter adapter = new TripResultAdapter(ViewSearchItineraryResultsListActivity.this, results);
+        database = FirebaseDatabase.getInstance().getReference("itinerary");
+        TripResultAdapter adapter = new TripResultAdapter(database, this, R.layout.trip_item);
 
         mListViewResults.setAdapter(adapter);
 
