@@ -1,10 +1,9 @@
 <resources>
-    <string name="app_name">Bla Bla Wild</string>
+    <string name="app_name" translatable="false">Bla Bla Wild</string>
     <string name="search_text">Rechercher</string>
     <string name="departure">Départ</string>
     <string name="destination">Destination</string>
     <string name="date">Date</string>
-    <string name="buttonSearch">Rechercher</string>
     <string name="action_settings">Settings</string>
     <string name="Toast">Merci de remplir le lieu de départ et/ou la destination</string>
     <string name="NoDate">Aucune date pour votre trajet</string>
@@ -12,5 +11,17 @@
     <string name="price">Prix</string>
     <string name="hour">Heure</string>
     <string name="publish">Publier</string>
+
+    /***** Main Acitvity *****\
+    <string name="buttonSearch">Rechercher</string>
     <string name="Propose">Proposer un trajet</string>
+    <string name="Account">Connexion</string>
+    <string name="NewAccout">Créer un compte</string>
+
+    /***** Signup Acitvity *****\
+    <string name="Mail">Indiquer votre mail</string>
+    <string name="Password">Indiquer votre mot de passe</string>
+    <string name="Valider">Valider la création de votre compte</string>
+    <string name="SignIn">Vous possédez déjà un compte ? Cliquer ici</string>
+
 </resources>

@@ -12,18 +12,19 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 
-
-
 public class MainActivity extends AppCompatActivity {
     Button buttonIttent;
     Button buttonIttent2;
+    Button buttonAccount;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         buttonIttent = (Button) findViewById(R.id.Search);
         buttonIttent2 = (Button) findViewById(R.id.Propose);
+        buttonAccount = (Button) findViewById(R.id.Account);
 
         buttonIttent.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,6 +39,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent toPropose = new Intent(MainActivity.this, SubmitItineraryActivity.class);
                 startActivity(toPropose);
+            }
+        });
+
+        buttonAccount.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent account = new Intent(MainActivity.this, AccountActivity.class);
+                startActivity(account);
             }
         });
 

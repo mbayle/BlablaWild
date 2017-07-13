@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bla Bla Wild</string>
+    <string name="Account" translatable="true">Connexion</string>
+    <string name="Date" translatable="true">Your departure date is :</string>
+    <string name="Mail" translatable="true">\"E-Mail Required \"</string>
+    <string name="NewAccout" translatable="true">Create a account</string>
+    <string name="NoDate" translatable="true">No result for your search</string>
+    <string name="Password" translatable="true">Enter your password</string>
+    <string name="Propose" translatable="true">Submit a ride</string>
+    <string name="SignIn" translatable="true">Sign-In</string>
+    <string name="Toast" translatable="true">Please fill in the  of departure and / or destination</string>
+    <string name="Valider" translatable="true">Create my account</string>
+    <string name="action_settings" translatable="true">Settings</string>
+    <string name="buttonSearch" translatable="true">Search</string>
+    <string name="date" translatable="true">Date</string>
+    <string name="departure" translatable="true">Departure</string>
+    <string name="destination" translatable="true">Destination</string>
+    <string name="hour" translatable="true">Hour</string>
+    <string name="price" translatable="true">Price</string>
+    <string name="publish" translatable="true">Publish</string>
+    <string name="search_text" translatable="true">Search</string>
+</resources>
