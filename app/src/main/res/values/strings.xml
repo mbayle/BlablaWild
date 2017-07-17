@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">Bla Bla Wild</string>
+    <string name="app_name">Bla Bla Wild</string>
     <string name="search_text">Rechercher</string>
     <string name="departure">Départ</string>
     <string name="destination">Destination</string>
