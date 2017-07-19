@@ -19,9 +19,18 @@
     <string name="NewAccout">Créer un compte</string>
 
     /***** Signup Acitvity *****\
+    <string name="Logout">Deconnexion</string>
+
+    /***** Signup Acitvity *****\
     <string name="Mail">Indiquer votre mail</string>
+    <string name="Pseudo">NOM Prénom</string>
+    <string name="EmptyMail">Veuillez indiquer votre E-Mail</string>
     <string name="Password">Indiquer votre mot de passe</string>
+    <string name="EmptyPassword">Veuillez indiquer votre mot de passe</string>
     <string name="Valider">Valider la création de votre compte</string>
+    <string name="ConnexionFailed">Authentication impossible.</string>
+    <string name="Progress">Connexion en cours</string>
     <string name="SignIn">Vous possédez déjà un compte ? Cliquer ici</string>
+    <string name="SignUp">Pas encore de compte ? Cliquer ici</string>
 
 </resources>
