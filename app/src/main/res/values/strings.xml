@@ -11,6 +11,10 @@
     <string name="price">Prix</string>
     <string name="hour">Heure</string>
     <string name="publish">Publier</string>
+    <string name="Acceuil">Acceuil</string>
+    <string name="MonCompte">Mon Compte</string>
+    <string name="SelectPicture">Sélectionner une photo</string>
+    <string name="imageError">Erreur</string>
 
     /***** Main Acitvity *****\
     <string name="buttonSearch">Rechercher</string>
