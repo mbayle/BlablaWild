@@ -30,13 +30,12 @@ public class SubmitItineraryActivity extends AppCompatActivity {
         editTextHour = (EditText) findViewById(R.id.editTextHour);
         buttonAdd = (Button) findViewById(R.id.buttonAdd);
 
+
         buttonAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (editTextDeparture.length() != 0 && editTextDestination.length() != 0 && editTextPrice.length() != 0 && editTextDate.length() != 0) {
-                    String driverLastName = "Doctor";
-                    String driverFirstName = "Who";
-                    int userID = 0;
+
                     String departure = editTextDeparture.getText().toString();
                     String destination = editTextDestination.getText().toString();
                     String date = editTextDate.getText().toString();

@@ -38,7 +38,6 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
 
-        //On instancie ici l'authentification avec FB
         auth = FirebaseAuth.getInstance();
 
 
